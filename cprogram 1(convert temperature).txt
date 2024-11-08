@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int choice,x,c,f,k;
+    printf("choices:\n1.fharenheit to celsius\n2.celsius to fharenheit\n3.celsius to kelvin\n4.kelvin to celsius\n");
+    printf("Enter your choice:");
+    scanf("%d",&choice);
+    switch(choice)
+    {
+        case 1:
+        printf("enter value:");
+        scanf("%d",&f);
+        x=((f-32)*5)/9;
+        printf("The celsius value is:%d",x);
+        break;
+        
+        case 2:
+        printf("enter value:");
+        scanf("%d",&c);
+        x=(c*9/5)+32;
+        printf("The fharenheit value is :%d",x);
+        break;
+        
+        case 3:
+        printf("enter value:");
+        scanf("%d",&c);
+        x=c+273.5;
+        printf("The kelvin value is:%d",x);
+        break;
+        
+        case 4:
+        printf("enter value:");
+        scanf("%d",&k);
+        x=k-273.5;
+        printf("The celsius value is:%d",x);
+        break;
+        
+        
+    }
+}
