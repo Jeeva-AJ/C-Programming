@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int a,an,b,bn,z;
+    printf("Enter weight of first product:\n");
+    scanf("%d",&a);
+    printf("Enter no of quantity of 1st product:\n");
+    scanf("%d",&an);
+    printf("Enter weight of second element:\n");
+    scanf("%d",&b);
+    printf("Enter no of quantity of 2nd product:\n");
+    scanf("%d",&bn);
+    z=((a*an)+(b*bn))/(an+bn);
+    printf("The average mean is:%d",z);
+    
+}
