@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int x,y,tot=0;
+    printf("enter petrol price on wednesday:\n");
+    scanf("%d",&x);
+    printf("enter how much spent extra than wed:\n ");
+    scanf("%d",&y);
+    y=x+y;
+    tot=x+y;
+    printf("total amount:%d",tot);
+}
