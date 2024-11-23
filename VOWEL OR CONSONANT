@@ -1,0 +1,44 @@
+#include <stdio.h>
+void main()
+{
+     int ch;
+     printf("enter a alphabet :\n");
+     scanf("%c",&ch);
+     switch (ch)
+     {
+         case 'a':
+         {
+              printf("you entered a VOWEL");
+              break;
+         }
+         
+         case 'e':
+         {
+              printf("you entered a VOWEL");
+              break;
+         }
+         
+         case 'i':
+         {
+              printf("you entered a VOWEL");
+              break;
+         }
+         
+         case 'o':
+         {
+              printf("you entered a VOWEL");
+              break;
+         }
+         
+         case 'u':
+         {
+              printf("you entered a VOWEL");
+              break;
+         }
+     
+         default :
+         {
+         printf("you enterd a CONSONANT");
+         }
+     }
+}
