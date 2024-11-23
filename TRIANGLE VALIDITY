@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter First value : \n");
+    scanf("%d",&a);
+    printf("Enter Second value : \n");
+    scanf("%d",&b);
+    printf("Enter Third value : \n");
+    scanf("%d",&c);
+    if((a+b>c)&&(b+c>a)&&(c+a>b))
+    printf("VALID");
+    else
+    printf("INVALID");
+}
